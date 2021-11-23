@@ -6,7 +6,11 @@ body {color: #39a6b2; font-family:  Helvetica, Arial, sans-serif;}
 
 header {padding: 20px 35px; background-color: #39a6b2;}
 
-header h1 {font-weight: bold; font-size: 36px; color: #fce138; margin: 0; display: inline;}
+header h1 {font-weight: bold;
+             font-size: 36px; 
+             color: #fce138; 
+             margin: 0; 
+             display: inline;}
 
 header a {text-decoration: none; color: #fce138;}
 
@@ -21,3 +25,28 @@ footer h2 {display: inline; color: #024e76; font-size: 30px; margin: 0;}
 footer div {float: right; line-height: 1.5; text-align: right;}
 
 footer a {color: 024e76;}
+
+
+/* Hero Style Start */
+.hero { 
+    background-image: url("../images/hero-bg.jpg"); 
+    height: 600px; 
+    background-size: cover; 
+    background-position: center; 
+    background-size: cover; 
+    position: relative;}
+/* Hero Sytle End */
+
+.hero-form { background-color: #fce138; 
+             padding: 20px; 
+             width: 500px; 
+            color: #024e76; 
+            border-style: solid; 
+            border-width: 3px; 
+            border-color: #024e76; 
+            padding: 20px; 
+            width: 500px; 
+            color:#024e76; 
+            position: absolute; 
+            bottom: 120px; 
+            right: 140px;}
