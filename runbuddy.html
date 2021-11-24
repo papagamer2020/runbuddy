@@ -30,25 +30,25 @@
 
   <!-- hero seciton-->
 
-  <section>
-      <div>
+  <section class="hero">
+      <div class="hero-form">
         <h3>Get Started Today</h3>
         <p>Fill out this form and one of our trainers will schedule a consult</p>
         <!-- Add form element-->
         <form>
           <lable for="name">Enter full name:</lable>
-          <input type="text" placeholder="Your Name" name="name" id="name" />
+            <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
           <lable for="email">Enter email address:</lable>
-          <input type="email" placeholder="Email Address" name="email" id="email" />
+            <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
           <label for="phone">Enter a telephone number:</label>
-          <input type="tel" placeholder="Phon Number" name="phone" id="phone" />
+           <input type="tel" placeholder="Phon Number" name="phone" id="phone" class="form-input" />
           <p>Have you worked out with a trainer before?
           <input type="radio" name="trianer-confirm" id="trainer-yes" />
-          <label for= "trainer-yes">Yes</label>
+            <label for= "trainer-yes">Yes</label>
           <input type="radio" name="trainer-confirm" id="trainer-no" />
-          <label for="trainer-no">No</label>
+            <label for="trainer-no">No</label>
           <input type="checkbox" name="confirm-18" id="confirm-18" />
-          <label for="confirm-18">I acknowledge that I am at least 18 years of age</label>
+            <label for="confirm-18">I acknowledge that I am at least 18 years of age</label>
           <button type="submit">Get running</button>
         </p>
         </form>
@@ -57,12 +57,50 @@
 
   <!-- end hero -->
 
-  <body>
-    <h2>What We Do</h2>
+  <!-- what we do section -->
+    <section>
+      <h2 id="what-we-do">What We Do</h2>
+      <p>butcher selfies chambray shabby chic gentrify readymad yr Echo Park XOXO Tumblr normcor Banksy direct trade Blue Bottle chillwave you probably haven't hear of them single-origin coffee Vice fany pack fixie Odd Furture Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft.</p>
+    </section>
+
+  <!--"what you do" seciton-->
+    <seciton id="what-you-do">
     <h2>What You Do</h2>
-    <h2>Meet The Trainers</h2>
-    <h2>Reach Out</h2>
-  </body>
+    
+    <div>
+      <!-- insert this img element -->
+      <img src="./assets/images/step-1.svg" alt="" />
+      <h3>Step 1: Fill Out the Form Above.</h3>
+      <p>You're alread here, so why not?</p>
+    </div>
+
+    <div>
+      <img src="./assets/images/step-2.svg" alt="" />
+      <h3>Step 2: Consult with One of Our Trainers.</h3>
+      <p>Are you here to build muscle, lose weight, or just feel good?</p>
+    </div>
+
+    <div>
+      <img src="./assets/images/step-3.svg" alt="" />
+      <h3>Step 3: Get Running.</h3>
+      <p>Hit the gournd running (litterally) once your trainer lays out your plan.</p>
+    </div>
+
+    <div>
+      <img src="./assets/images/step-4.svg" alt="" />
+      <h3>Step 4: See Results.</h3>
+      <p>Bi-weekly checkins with your trainer will keep you focused</p>
+    </div>
+    </seciton>
+
+    <seciton>
+      <h2>Meet The Trainers</h2>
+    </seciton>
+
+    <section>
+      <h2>Reach Out</h2>
+    </seciton>
+  
   <footer>
     <h2>❤️ Made with love by Run Buddy</h2>
   <div>
@@ -71,3 +109,5 @@
   </div>
   </footer>
   </body>
+
+ 
